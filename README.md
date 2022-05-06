@@ -1,6 +1,6 @@
-<p align="center"> 
+<div align="center"> 
 <img src="./banner.png">
-</p>
+</div>
 
 # 100DaysofCode
 
@@ -11,3 +11,5 @@
 | Day   |      Project Name       |                       Source Code/Preview |
 | :---- | :---------------------: | ----------------------------------------: |
 | day-1 | Read More Toggle Button | https://codepen.io/douglas254/pen/XWZmpLX |
+| day-2 | Html Css Only Modal     | https://codepen.io/douglas254/pen/qBxOQzq |
+
