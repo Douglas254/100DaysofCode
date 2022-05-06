@@ -1,0 +1,76 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+#btn {
+  border: none;
+  outline: none;
+  border-radius: 50%;
+}
+
+.wrapper {
+  background: linear-gradient(45deg, #8000ffb4, #e100ff, #000dffb7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.wrapper a {
+  display: inline-block;
+  text-decoration: none;
+  box-shadow: 10px 20px rgba(0, 0, 0, 0.614);
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 3px;
+  color: #585858;
+}
+
+/* modal box */
+.modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(66, 66, 66, 0.6);
+  transition: all 0.4s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* modal visible onClick */
+.modal:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* modal content */
+.modalcontent {
+  position: relative;
+  background: #ffffff;
+  width: 500px;
+  max-width: 90%;
+  padding: 1em 2em;
+  border-radius: 4px;
+  box-shadow: 12px 12px 12px #ffa60082;
+}
+
+.modalclose {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  color: #434343;
+  text-decoration: none;
+  font-size: 36px;
+}
