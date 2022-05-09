@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.video__container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.video__container video {
+  z-index: -1;
+  position: absolute;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video__content {
+  background-color: white;
+  color: #333;
+  padding: 15px;
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
