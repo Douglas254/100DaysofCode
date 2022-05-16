@@ -18,4 +18,5 @@
 | day-6 | Feature Section | https://codepen.io/douglas254/pen/zYRBqRz |
 | day-7 | ContactUs Feature | https://codepen.io/douglas254/pen/xxYOMZg |
 | day-8 | Change BG Color | https://codepen.io/douglas254/pen/xxYEzRE |
+| day-9 | Animated Loading Spinner | https://codepen.io/douglas254/pen/oNEYxNL |
 
