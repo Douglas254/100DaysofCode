@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Product Section</title>
+  </head>
+  <body>
+    <!-- Products Section -->
+    <div class="products">
+      <div class="product__inner">
+        <h2>Josefina Body Lotion</h2>
+        <hr class="hrMain" />
+        <div class="single__product">
+          <!-- 1st product -->
+          <div class="singleProduct__inner">
+            <img src="./images/item1.png" alt="lotion pic" />
+            <h2>The ritual of sakura</h2>
+            <h3>Cherry Blosson Hand Lotion</h3>
+            <p class="sub__par">Body lotion, 70ml</p>
+            <p>$12.50</p>
+            <a href="#openModal" title="Add to Shopping Cart" class="linkModal"
+              >add to bag</a
+            >
+          </div>
+          <!-- 2nd product -->
+          <div class="singleProduct__inner">
+            <img src="./images/item2.png" alt="lotion pic" />
+            <h2>The ritual of ayurveda</h2>
+            <h3>Himalaya Honey body cream</h3>
+            <p class="sub__par">Body cream, 70ml</p>
+            <p>$7.50</p>
+            <a href="#openModal2" title="Add to Shopping Cart" class="linkModal"
+              >add to bag</a
+            >
+          </div>
+          <!-- 3rd product -->
+          <div class="singleProduct__inner">
+            <img src="./images/item3.png" alt="lotion pic" />
+            <h2>The ritual of sakura</h2>
+            <h3>Organic rice milk body cream</h3>
+            <p class="sub__par">Body Cream, 70ml</p>
+            <p>$7.50</p>
+            <a href="#openModal3" title="Add to Shopping Cart" class="linkModal"
+              >add to bag</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 1st product modal content -->
+    <div class="outermodal" id="openModal">
+      <div class="modalWindow">
+        <h1>it's in the bag</h1>
+        <hr class="modalHrt" />
+        <div class="modalWindow__inner">
+          <div class="imag">
+            <img src="./images/item1.png" alt="1stlotion" />
+          </div>
+          <div class="description">
+            <h2>The ritual of sakura</h2>
+            <h3>Cherry Blosson Hand Lotion</h3>
+            <p class="sub__par">Body lotion, 70ml</p>
+            <p>$12.50</p>
+            <p class="mt__desc">Mix & Match: 3/$33</p>
+          </div>
+        </div>
+        <div class="bg">
+          <p class="modalWindow__outer m">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel dicta
+            eligendi voluptatem corporis omnis itaque?
+          </p>
+          <hr class="modalWindow__outer modalHr" />
+          <a
+            href="#openModal2"
+            class="modalWindow__outer btn linkModal__shopping"
+            >Continue shopping</a
+          >
+        </div>
+        <a href="#" class="close">&times;</a>
+      </div>
+    </div>
+
+    <!-- 2nd product modal content -->
+    <div class="outermodal" id="openModal2">
+      <div class="modalWindow">
+        <h1>it's in the bag</h1>
+        <hr class="modalHrt" />
+        <div class="modalWindow__inner">
+          <div class="imag">
+            <img src="./images/item2.png" alt="1stlotion" />
+          </div>
+          <div class="description">
+            <h2>The ritual of ayurveda</h2>
+            <h3>Himalaya Honey body cream</h3>
+            <p class="sub__par">Body cream, 70ml</p>
+            <p>$7.50</p>
+            <p class="mt__desc">Mix & Match: 3/$20</p>
+          </div>
+        </div>
+        <div class="bg">
+          <p class="modalWindow__outer m">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel dicta
+            eligendi voluptatem corporis omnis itaque?
+          </p>
+          <hr class="modalWindow__outer modalHr" />
+          <a
+            href="#openModal3"
+            class="modalWindow__outer btn linkModal__shopping"
+            >Continue shopping</a
+          >
+        </div>
+        <a href="#" class="close">&times;</a>
+      </div>
+    </div>
+
+    <!-- 3rd product modal content -->
+    <div class="outermodal" id="openModal3">
+      <div class="modalWindow">
+        <h1>it's in the bag</h1>
+        <hr class="modalHrt" />
+        <div class="modalWindow__inner">
+          <div class="imag">
+            <img src="./images/item3.png" alt="lotion pic" />
+          </div>
+          <div class="description">
+            <h2>The ritual of sakura</h2>
+            <h3>Organic rice milk body cream</h3>
+            <p class="sub__par">Body Cream, 70ml</p>
+            <p>$7.50</p>
+            <p class="mt__desc">Mix & Match: 3/$20</p>
+          </div>
+        </div>
+        <div class="bg">
+          <p class="modalWindow__outer m">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel dicta
+            eligendi voluptatem corporis omnis itaque?
+          </p>
+          <hr class="modalWindow__outer modalHr" />
+          <a
+            href="#openModal"
+            class="modalWindow__outer btn linkModal__shopping"
+            >Continue shopping</a
+          >
+        </div>
+        <a href="#" class="close">&times;</a>
+      </div>
+    </div>
+  </body>
+</html>
