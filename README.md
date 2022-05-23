@@ -24,3 +24,7 @@
 | day-13 | Modal Window 1/3 Set | https://codepen.io/douglas254/pen/mdXmgzY |
 | day-14 | Product Section | https://codepen.io/douglas254/pen/wvydZRa |
 | day-15 | Slide Show | https://codepen.io/douglas254/pen/MWQmRLm |
+| day-16 | Fixed Top Menu | https://codepen.io/douglas254/pen/eYVExwr |
+| day-17 | Time | https://codepen.io/douglas254/pen/mdXMobJ |
+| day-18 | Number Guessing Game | https://codepen.io/douglas254/pen/ExQvMaO |
+| day-19 | CUNNYCCC Project3 FrontEnd | https://codepen.io/douglas254/pen/LYQjaVK |
