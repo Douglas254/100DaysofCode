@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CUNNYCCC Project3 FrontEnd</title>
+  </head>
+  <body>
+    <h1>Guess MY number</h1>
+    <h3>Guess the number between 1 and 100</h3>
+    <div class="wrapper">
+      <div class="wrapper__navbar">
+        <div class="leftNav">
+          <p>Score: <span class="score"> 10</span></p>
+          <p>High Score: <span class="high__score"> 0</span></p>
+        </div>
+        <button id="reset">Reset</button>
+      </div>
+      <div class="wrapper__body">
+        <img src="./images/kenyaflag.gif" alt="" />
+        <input type="text" id="guessField" placeholder="Guess a number" />
+        <button id="subt">Check</button>
+        <p id="outPutText">Guess a Number</p>
+      </div>
+
+      <div class="hist numbers__guess">
+        <h4>Guess History <br /><br /><span class="guessed__number"></span></h4>
+      </div>
+    </div>
+  </body>
+</html>
