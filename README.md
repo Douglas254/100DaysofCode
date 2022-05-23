@@ -21,3 +21,6 @@
 | day-10 | Calculator | https://codepen.io/douglas254/pen/abqpQGy |
 | day-11 | Footer | https://codepen.io/douglas254/pen/yLvgQqO |
 | day-12 | Product Section | https://codepen.io/douglas254/pen/mdXRQza |
+| day-13 | Modal Window 1/3 Set | https://codepen.io/douglas254/pen/mdXmgzY |
+| day-14 | Product Section | https://codepen.io/douglas254/pen/wvydZRa |
+| day-15 | Slide Show | https://codepen.io/douglas254/pen/MWQmRLm |
